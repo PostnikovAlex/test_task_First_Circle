@@ -1,0 +1,17 @@
+.table {
+    gap: 1px; 
+    background-color: #ddd;
+    border: 1px solid #ddd; 
+  }
+  
+  .tableHeader {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .headerCell {
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    text-align: left;
+  }

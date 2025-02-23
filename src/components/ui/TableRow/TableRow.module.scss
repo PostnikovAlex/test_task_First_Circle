@@ -1,0 +1,15 @@
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.cell {
+  padding: 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+/* Alternating row colors */
+.row:nth-child(even) .cell {
+  background-color: #f9f9f9;
+}
